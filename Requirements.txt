@@ -1,0 +1,1 @@
+# Core Python librariespandasnumpyscikit-learnxgboostimbalanced-learnjoblibmatplotlibnltkfeedparserrequestsbeautifulsoup4lxmlpdfplumberopenai==0.28python-dotenv# BERTopic + Embeddingsbertopicsentence-transformers# Streamlit for deploymentstreamlit
