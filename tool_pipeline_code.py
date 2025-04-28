@@ -9,7 +9,6 @@ Original file is located at
 # **Retrieve Documents via API Call**
 """
 
-!pip install feedparser
 
 """Walmart Legal Document Retrieval"""
 
@@ -29,7 +28,7 @@ for entry in feed.entries:
 
 """Scraping Exhibit Links from Filing Page"""
 
-pip install beautifulsoup4 lxml
+
 
 import requests
 from bs4 import BeautifulSoup
@@ -143,8 +142,6 @@ def chunk_text(text, max_tokens=300):
 
     return chunks
 
-!pip install bertopic
-!pip install sentence_transformers
 
 from bertopic import BERTopic
 from sentence_transformers import SentenceTransformer
@@ -383,8 +380,7 @@ SMOTE + Logistic Regression (Legal Text Classifier) - *Morgan*
 from google.colab import drive
 drive.mount('/content/drive')
 
-!pip install -q imbalanced-learn
-!pip install -q transformers datasets
+
 
 # 📚 Import libraries
 import pandas as pd
@@ -654,9 +650,7 @@ plt.show()
 # Integrating Summarization
 """
 
-!pip install pdfplumber
 
-!pip install openai==0.28
 
 import openai
 print(openai.__version__)
